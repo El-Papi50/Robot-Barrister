@@ -7,7 +7,15 @@ print("Hello! Welcome to the Yvonne coffee shop!")
 
 name = input("what is your name? ")
 
-print("Hello " + name + ", thank you for coming in today!\n\n")
+#Greet the customer by name and thank them for coming in today. if customer is Jessica, do not welcome her
+
+if name == "Jessica":
+  print("you're not welcome here Jessica! Get out!")
+  exit()
+
+else:
+  print("Hello " + name + ", thank you for coming in today!\n\n")
+
 
 menu = "1. Black Coffee\n"  "2. Espresso\n" "3. Latte\n" "4. Cappuccino\n" "5. Americano\n" "6. Macchiato\n" "7. Mocha\n" "8. Tea\n" "9. Hot Chocolate\n" "10. Chai\n" "11. Hot Water\n"
 
